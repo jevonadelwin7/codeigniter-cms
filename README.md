@@ -1,6 +1,6 @@
 # Codeigniter-CMS
 
-Project to make a company profile web that with content management system.
+Project to make a web with content management system. This web-app created with Codeigniter 4.
 
 # Credits
 
