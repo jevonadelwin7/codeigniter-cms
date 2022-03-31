@@ -45,4 +45,12 @@ class Home extends BaseController
         ];
         echo view('layout/template', $data);
     }
+    public function visi_misi()
+    {
+        $data = [
+            'isi' => 'visi_misi',
+            'title' => 'DPMPTSP | Visi & Misi DPMPTSP Mentawai'
+        ];
+        echo view('layout/template', $data);
+    }
 }

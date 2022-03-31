@@ -29,9 +29,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#" style="font-family: roboto;">
-            <img src="img/bkpm_ri.png" width="120" height="90" alt="">
-        </a>
+        
         <div class="collapse navbar-collapse text-center font-weight-bolder" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" href="<?= base_url() ?>">BERANDA<span class="sr-only"></span></a>
@@ -40,8 +38,10 @@
                         PROFIL
                     </a>
                     <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Struktur Organisasi</a>
-                        <a class="dropdown-item" href="<?= base_url('home/tentang') ?>">Tentang DPMTSP</a>
+                        <a class="dropdown-item" href="<?= base_url('/visi_misi') ?>">Visi & Misi</a>
+                        <a class="dropdown-item" href="<?= base_url('/motto') ?>">Motto</a>
+                        <a class="dropdown-item" href="<?= base_url('/struktur_organisasi') ?>">Struktur Organisasi</a>
+                        <a class="dropdown-item" href="<?= base_url('/tentang') ?>">Tentang DPMTSP</a>
 
                     </div>
                 </li>
@@ -68,5 +68,8 @@
                 <a class="nav-link active" href="<?= base_url('home/lapor') ?>">LAPOR<span class="sr-only">(current)</span></a>
             </div>
         </div>
+        <a class="navbar-brand" href="#" style="font-family: roboto;">
+            <img src="img/bkpm_ri.png" width="120" height="90" alt="">
+        </a>
         
     </nav>

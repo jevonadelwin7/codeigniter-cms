@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/admin', 'Admin::index');
 $routes->get('/admin/laporan_masyarakat', 'Admin::laporan_masyarakat');
+$routes->get('/visi_misi', 'Home::visi_misi');
 
 /*
  * --------------------------------------------------------------------
