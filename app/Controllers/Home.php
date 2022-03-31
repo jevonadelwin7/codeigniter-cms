@@ -15,7 +15,7 @@ class Home extends BaseController
     public function lapor()
     {
         $data = [
-            'isi' => 'lapor_page',
+            'isi' => 'lapor_pages',
             'title' => 'DPMPTSP | Lapor'
         ];
         echo view('layout/template', $data);
