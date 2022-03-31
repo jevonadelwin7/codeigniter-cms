@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 400px) {
+   
+   .coverhead{
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/backroundcover.jpg');
+      background-size:cover;
+      height: 700px;
+      margin-bottom: 0px;
+   }
+   .titlecover{
+      color: white;
+      font-size: 62;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+   }
+   
+   .textcover{
+      color: white;
+      font-weight: 400;
+      font-family: 'Montserrat';
+   }
+
+   .rowini{
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .icon-service{
+      color: white;
+      text-decoration: none;
+   }
+}
+
+@media screen and (min-width: 550px) {
+   .coverhead{
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/backroundcover.jpg');
+      background-size: cover;
+      height: 700px;
+      margin-bottom: 0px;
+   }
+   .icon-service{
+      color: white;
+      text-decoration: none;
+   }
+}
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+   body{
+      background-color: #FAFAFA;
+   }
+   .coverhead{
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/backroundcover.jpg');
+      background-size: cover;
+      height: 800px;
+      margin-bottom: 0px;
+   }
+   .titlecover{
+      color: white;
+      font-size: 62;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+   }
+   
+   .textcover{
+      color: white;
+      font-weight: 400;
+      font-family: 'Montserrat';
+   }
+   
+   .sectiontwo{
+      height: 500px;
+      margin-top: 40px;
+   }
+
+   .isi{
+      font-family: 'Montserrat';
+   }
+
+   .icon-service{
+      color: white;
+      text-decoration: none;
+   }
+   }
+
